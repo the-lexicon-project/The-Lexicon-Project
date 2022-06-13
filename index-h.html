@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Name</label> <input id="Namebox" type="text">  <br><br>
+    <label>RollNo</label> <input id="Rollbox" type="text"> <br><br>
+    <label>Section</label> <input id="Secbox" type="text"> <br><br>
+    <label>Gender</label>
+    <select id="Genbox">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+    <button id="Insbtn">INSERT</button>
+    <button id="Selbtn">SELECT</button>
+    <button id="Updbtn">UPDATE</button>
+    <button id="Delbtn">DELETE</button>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAlATmrSreBG62EWigK-7ZesZmpIHmCgnY",
+          authDomain: "the-lexicon-project.firebaseapp.com",
+          projectId: "the-lexicon-project",
+          storageBucket: "the-lexicon-project.appspot.com",
+          messagingSenderId: "133051342836",
+          appId: "1:133051342836:web:5d90e5d5bbd24714d3a3a1",
+          measurementId: "G-PTP174S97V"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        import {
+            getFirestore, doc, getDoc, setDoc, collection, addDoc, updateDoc, deleteDoc, deleteField
+        }
+        from "https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js"
+
+        const db = getFirestore();
+
+        let NameBox = document.getElementById("Namebox")
+        let RollBox = document.getElementById("Rollbox")
+        let SecBox = document.getElementById("Secbox")
+        let GenBox = document.getElementById("Genbox")
+
+        let insBtn = document.getElementById("Insbtn")
+        let selBtn = document.getElementById("Selbtn")
+        let updBtn = document.getElementById("Updbtn")
+        let delBtn = document.getElementById("Delbtn")
+
+        async function AddDocument_AutoID() {
+            console.log("started")
+            var ref = collection(db,"articles")
+
+            const docRef = await addDoc(
+                ref, {
+                    RollNo: RollBox.value,
+                    Section: SecBox.value,
+                    Gender: GenBox.value
+                }
+            )
+            .then(()=>{
+                alert("Data added")
+            })
+            .catch((error)=>{
+                alert("unsuccessful")
+                console.log(error)
+            })
+        }
+        insBtn.addEventListener("click", AddDocument_AutoID);
+      </script>
+</body>
+</html>
