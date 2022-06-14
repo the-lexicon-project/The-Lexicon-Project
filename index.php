@@ -36,11 +36,12 @@
         .side {
             position: fixed;
             top: 8.3%;
-            width: 10%;
+            width: auto;
             height: 97%;
             right: 90%;
             border-style: solid;
             border-width: 0px 2px 4px 0px;
+            padding: 0px 2px 4px 0px;
             border-color: rgb(214, 214, 214);
             text-align: center;
         }
@@ -170,215 +171,214 @@
         </div>
         <div class="side"> 
             <ul class="nav_sidebar_list">
-                <div class="nav_sidebar_items">
-                    <div class="nav_box_sta">
-                        <header class="nav_box_header">Allgemein</header>
-                        <li>
-                            <a>Startseite</a>
-                        </li>
-                        <li>
-                            <a>Hilfe</a>
-                        </li>
-                        <li>
-                            <a>Kontakt</a>    
-                        </li>
-                        <li>
-                            <a>Datenschutz</a>    
-                        </li>
-                    </div>
-                    <div class="nav_box_misc_1">
-                        <header class="nav_box_header">Artikel</header>
-                        <li>
-                            <a>Zufälliger Artikel</a>
-                        </li>
-                        <li>
-                            <a>Artikel suchen</a>
-                        </li>
-                        <li>
-                            <a>Artikel verbessern</a>    
-                        </li>
-                        <li>
-                            <a>Artikel erstellen</a>    
-                        </li>
-                        <li>
-                            <a>Artikelwünsche</a>    
-                        </li>
-                    </div>
-                    <div class="nav_box_misc_2">
-                        <header class="nav_box_header">Tools</header>
-                        <li>
-                            <a>Wörterbuch</a>
-                        </li>
-                        <li>
-                            <a>Externe Links</a>
-                        </li>
-                        <li>
-                            <a>Änderungen</a>    
-                        </li>
-                        <li>
-                            <a>Statistik</a>    
-                        </li>
-                        <li>
-                            <a>Seiteninformationen</a>    
-                        </li>
-                    </div>
-                    <div class="nav_box_misc_3">
-                        <header class="nav_box_header">Sprachen</header>
-                        <li>
-                            <a>Alemannisch</a>
-                        </li>
-                        <li>
-                            <a>العربية</a>
-                        </li>
-                        <li>
-                            <a>Boarisch</a>    
-                        </li>
-                        <li>
-                            <a>Català</a>    
-                        </li>
-                        <li>
-                            <a>Čeština</a>    
-                        </li>
-                        <li>
-                            <a>Dansk</a>
-                        </li>
-                        <li>
-                            <a>Dolnoserbski</a>
-                        </li>
-                        <li>
-                            <a>Ελληνικά</a>    
-                        </li>
-                        <li>
-                            <a>English</a>    
-                        </li>
-                        <li>
-                            <a>Español</a>    
-                        </li>
-                        <li>
-                            <a>فارسی</a>
-                        </li>
-                        <li>
-                            <a>Suomi</a>
-                        </li>
-                        <li>
-                            <a>Français</a>    
-                        </li>
-                        <li>
-                            <a>Arpetan</a>    
-                        </li>
-                        <li>
-                            <a>Nordfriisk</a>    
-                        </li>
-                        <li>
-                            <a>Frysk</a>
-                        </li>
-                        <li>
-                            <a>עברית</a>
-                        </li>
-                        <li>
-                            <a>हिन्दी</a>    
-                        </li>
-                        <li>
-                            <a>Hrvatski</a>    
-                        </li>
-                        <li>
-                            <a>Hornjoserbsce</a>    
-                        </li>
-                        <li>
-                            <a>Magyar</a>
-                        </li>
-                        <li>
-                            <a>Bahasa Indonesia</a>
-                        </li>
-                        <li>
-                            <a>Italiano</a>    
-                        </li>
-                        <li>
-                            <a>日本語</a>    
-                        </li>
-                        <li>
-                            <a>한국어</a>    
-                        </li>
-                        <li>
-                            <a>Ripoarisch</a>    
-                        </li>
-                        <li>
-                            <a>Latina</a>    
-                        </li>
-                        <li>
-                            <a>Lëtzebuergesch</a>
-                        </li>
-                        <li>
-                            <a>Limburgs</a>
-                        </li>
-                        <li>
-                            <a>Lombard</a>    
-                        </li>
-                        <li>
-                            <a>Plattdüütsch</a>    
-                        </li>
-                        <li>
-                            <a>Nederlands</a>    
-                        </li>
-                        <li>
-                            <a>Norsk bokmål</a>
-                        </li>
-                        <li>
-                            <a>Deitsch</a>
-                        </li>
-                        <li>
-                            <a>Polski</a>    
-                        </li>
-                        <li>
-                            <a>Português</a>    
-                        </li>
-                        <li>
-                            <a>Rumantsch</a>    
-                        </li>
-                        <li>
-                            <a>Română</a>
-                        </li>
-                        <li>
-                            <a>Русский</a>
-                        </li>
-                        <li>
-                            <a>Slovenčina</a>    
-                        </li>
-                        <li>
-                            <a>Slovenščina</a>    
-                        </li>
-                        <li>
-                            <a>Shqip</a>    
-                        </li>
-                        <li>
-                            <a>Српски / srpski</a>
-                        </li>
-                        <li>
-                            <a>Seeltersk</a>    
-                        </li>
-                        <li>
-                            <a>Svenska</a>    
-                        </li>
-                        <li>
-                            <a>ไทย</a>    
-                        </li>
-                        <li>
-                            <a>Türkçe</a>
-                        </li>
-                        <li>
-                            <a>Українська</a>
-                        </li>
-                        <li>
-                            <a>Tiếng Việt</a>    
-                        </li>
-                        <li>
-                            <a>ייִדיש</a>    
-                        </li>
-                        <li>
-                            <a>中文</a>    
-                        </li>
-                    </div>
+                <div class="nav_box_sta" style="padding-right: 10px;">
+                    <header class="nav_box_header">Allgemein</header>
+                    <li>
+                        <a>Startseite</a>
+                    </li>
+                    <li>
+                        <a>Hilfe</a>
+                    </li>
+                    <li>
+                        <a>Kontakt</a>    
+                    </li>
+                    <li>
+                        <a>Datenschutz</a>    
+                    </li>
                 </div>
+                <div class="nav_box_misc_1" style="padding-right: 10px;">
+                    <header class="nav_box_header">Artikel</header>
+                    <li>
+                        <a>Zufälliger Artikel</a>
+                    </li>
+                    <li>
+                        <a>Artikel suchen</a>
+                    </li>
+                    <li>
+                        <a>Artikel verbessern</a>    
+                    </li>
+                    <li>
+                        <a>Artikel erstellen</a>    
+                    </li>
+                    <li>
+                        <a>Artikelwünsche</a>    
+                    </li>
+                </div>
+                <div class="nav_box_misc_2" style="padding-right: 10px;">
+                    <header class="nav_box_header">Tools</header>
+                    <li>
+                        <a>Wörterbuch</a>
+                    </li>
+                    <li>
+                        <a>Externe Links</a>
+                    </li>
+                    <li>
+                        <a>Änderungen</a>    
+                    </li>
+                    <li>
+                        <a>Statistik</a>    
+                    </li>
+                    <li>
+                        <a>Seiteninformationen</a>    
+                    </li>
+                </div>
+                <div class="nav_box_misc_3" style="padding-right: 10px;">
+                    <header class="nav_box_header">Sprachen</header>
+                    <li>
+                        <a>Alemannisch</a>
+                    </li>
+                    <li>
+                        <a>العربية</a>
+                    </li>
+                    <li>
+                        <a>Boarisch</a>    
+                    </li>
+                    <li>
+                        <a>Català</a>    
+                    </li>
+                    <li>
+                        <a>Čeština</a>    
+                    </li>
+                    <li>
+                        <a>Dansk</a>
+                    </li>
+                    <li>
+                        <a>Dolnoserbski</a>
+                    </li>
+                    <li>
+                        <a>Ελληνικά</a>    
+                    </li>
+                    <li>
+                        <a>English</a>    
+                    </li>
+                    <li>
+                        <a>Español</a>    
+                    </li>
+                    <li>
+                        <a>فارسی</a>
+                    </li>
+                    <li>
+                        <a>Suomi</a>
+                    </li>
+                    <li>
+                        <a>Français</a>    
+                    </li>
+                    <li>
+                        <a>Arpetan</a>    
+                    </li>
+                    <li>
+                        <a>Nordfriisk</a>    
+                    </li>
+                    <li>
+                        <a>Frysk</a>
+                    </li>
+                    <li>
+                        <a>עברית</a>
+                    </li>
+                    <li>
+                        <a>हिन्दी</a>    
+                    </li>
+                    <li>
+                        <a>Hrvatski</a>    
+                    </li>
+                    <li>
+                        <a>Hornjoserbsce</a>    
+                    </li>
+                    <li>
+                        <a>Magyar</a>
+                    </li>
+                    <li>
+                        <a>Bahasa Indonesia</a>
+                    </li>
+                    <li>
+                        <a>Italiano</a>    
+                    </li>
+                    <li>
+                        <a>日本語</a>    
+                    </li>
+                    <li>
+                        <a>한국어</a>    
+                    </li>
+                    <li>
+                        <a>Ripoarisch</a>    
+                    </li>
+                    <li>
+                        <a>Latina</a>    
+                    </li>
+                    <li>
+                        <a>Lëtzebuergesch</a>
+                    </li>
+                    <li>
+                        <a>Limburgs</a>
+                    </li>
+                    <li>
+                        <a>Lombard</a>    
+                    </li>
+                    <li>
+                        <a>Plattdüütsch</a>    
+                    </li>
+                    <li>
+                        <a>Nederlands</a>    
+                    </li>
+                    <li>
+                        <a>Norsk bokmål</a>
+                    </li>
+                    <li>
+                        <a>Deitsch</a>
+                    </li>
+                    <li>
+                        <a>Polski</a>    
+                    </li>
+                    <li>
+                        <a>Português</a>    
+                    </li>
+                    <li>
+                        <a>Rumantsch</a>    
+                    </li>
+                    <li>
+                        <a>Română</a>
+                    </li>
+                    <li>
+                        <a>Русский</a>
+                    </li>
+                    <li>
+                        <a>Slovenčina</a>    
+                    </li>
+                    <li>
+                        <a>Slovenščina</a>    
+                    </li>
+                    <li>
+                        <a>Shqip</a>    
+                    </li>
+                    <li>
+                        <a>Српски / srpski</a>
+                    </li>
+                    <li>
+                        <a>Seeltersk</a>    
+                    </li>
+                    <li>
+                        <a>Svenska</a>    
+                    </li>
+                    <li>
+                        <a>ไทย</a>    
+                    </li>
+                    <li>
+                        <a>Türkçe</a>
+                    </li>
+                    <li>
+                        <a>Українська</a>
+                    </li>
+                    <li>
+                        <a>Tiếng Việt</a>    
+                    </li>
+                    <li>
+                        <a>ייִדיש</a>    
+                    </li>
+                    <li>
+                        <a>中文</a>    
+                    </li>
+                </div>
+
             </ul>
         </div>
     </div>
@@ -394,8 +394,8 @@
         </script>
     </div>
     <div class="center_search_form">
-        <form action="/action_page.php">
-            <input type="text" id="input_field_1" name="input_field_1" placeholder="Suche" class="center_search_form_input_field_1"> <br><br>
+        <form action="/">
+            <input type="text" id="input_field_1" name="page" placeholder="Suche" class="center_search_form_input_field_1"> <br><br>
             <input type="submit" value="Suchen" class="center_search_form_submit_button">
         </form>
     </div>
